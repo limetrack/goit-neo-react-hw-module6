@@ -1,0 +1,22 @@
+.formGroup {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+	margin-bottom: 0.5rem;
+}
+
+.label {
+  font-size: 1rem;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formError {
+	font-size: 0.875rem;
+	color: red;
+}

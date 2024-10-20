@@ -1,0 +1,44 @@
+.contactCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .contactCard {
+    min-width: 280px;
+    width: calc(100% / 2 - 0.8rem);
+  }
+}
+
+@media screen and (min-width: 988px) {
+  .contactCard {
+    min-width: 280px;
+    width: calc(100% / 3 - 2 * 0.8rem);
+  }
+}
+
+.contactInfoItem {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.removeBtn {
+  background-color: #fa5b5b;
+  color: white;
+  border: none;
+}
+
+.removeBtn:hover {
+  background-color: #fb3838;
+}
